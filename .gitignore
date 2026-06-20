@@ -1,0 +1,19 @@
+# Never publish client deliverables
+*.zip
+dap-logistics/
+DOCUMENTATION.md
+client-*/
+.env
+.env.*
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets
+credentials.*
+*hubspot*secret*
+*portal*id*
